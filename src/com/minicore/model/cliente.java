@@ -14,10 +14,7 @@ public class cliente {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	
 	private Integer idCliente;
-	private String nombre;
-	
-	
-	
+	private String nombre;	
 	
 	
 	public cliente() {

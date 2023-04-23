@@ -31,11 +31,7 @@ public class contrato {
 	
 	
 	@Column(name = "montos")
-	private Float montos;
-	
-	
-	
-	
+	private Float montos;	
 	
 	public contrato() {
 		super();

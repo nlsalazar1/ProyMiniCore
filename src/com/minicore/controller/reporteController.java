@@ -71,11 +71,9 @@ public class reporteController {
 				for(Date f : fechas) {
 					if (con.getCliente().getIdCliente() == temp.getIdCliente() && f.compareTo(con.getFecha()) == 0) {
 						total = total + con.getMontos();
-						totalGeneral= totalGeneral+total;
-						
+						totalGeneral= totalGeneral+total;						
 					}
-				}
-				
+				}				
 			}
 			clientes.add(Float.toString(total));	
 			resultados.add(clientes);
